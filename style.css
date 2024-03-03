@@ -348,3 +348,62 @@ input::placeholder {
   font-weight: 400;
   letter-spacing: 0.846px;
 }
+@media (max-width: 800px)  {
+  .header__nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .story {
+    width: 100%;
+  }
+  .capabilities {
+    width: 100%;
+  }
+  .build {
+    width: 100%;
+  }
+  .con {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  .story__imgs {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  input {
+    width: 100%;
+  }
+  .capa__title {
+    width: 100%;
+  }
+  .capa__title__text {
+    width: 100%;
+  }
+  .capa__titles {
+    gap: 30px;
+  }
+  .capa__cards {
+    justify-content: center;
+  }
+  .sign__up {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+  .capa__title__smtext {
+    font-size: 15px;
+  }
+  .logo__btn {
+    margin-top: 180px;
+  }
+  .logo__title {
+    margin-top: 170px;
+  }
+  }
+
